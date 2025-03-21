@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="shortcut icon" href="./Weather _))10 18.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="info">
+        <h1>Iphone model: 13 Pro Max</h1>
+        <h2>For Watching Homework Click to Weather App</h2>
+    </div>
+  <div class="iphone-mockup">
+    <div class="hours">
+        <h2 id="t">0</h2>
+        <h2>:</h2>
+        <h2 id="t2">0</h2>
+    </div>
+    <div class="buttons3">
+        <button class="app-button"><img class="appicon" src="./icons/free-icon-music-831286.png" alt="0"></button>
+        <button class="app-button"><img class="appicon" src="./icons/free-icon-safari-831313.png" alt="0"></button>
+        <button class="app-button"><img class="appicon" src="./icons/free-icon-settings-668293.png" alt="0"></button>
+        <button class="app-button"><img class="appicon" src="./icons/free-icon-camera-831267.png" alt="0"></button>
+    </div>
+    <div class="buttons2">
+        <button class="app-button"><img class="appicon" src="./icons/free-icon-app-store-831276.png" alt="0"></button>
+        <button class="app-button"><img class="appicon" src="./icons/free-icon-apple-831302.png" alt="0"></button>
+        <button class="app-button"><img class="appicon" src="./icons/free-icon-apple-831306.png" alt="0"></button>
+        <button class="app-button"><img class="appicon" src="./icons/free-icon-apple-831309.png" alt="0"></button>
+    </div>
+    <div class="buttons">
+        <button id="openAppButton" class="app-button"><img class="appicon" src="./icons/free-icon-weather-831268.png" alt="0"></button>
+        <button class="app-button"><img class="appicon" src="./icons/free-icon-camera-831267.png" alt="0"></button>
+        <button class="app-button"><img class="appicon" src="./icons/free-icon-messages-668287.png" alt="0"></button>
+        <button class="app-button"><img class="appicon" src="./icons/free-icon-photos-831266.png" alt="0"></button>
+    </div>
+    <div id="screen1" class="screen screen1">
+        <div class="container">
+            <img id="icon" class="globalIcon" src="./Weather _))10 18.png" alt="0">
+            <h1 class="appStartText">Weather</h1>
+            <h1 class="appStartText2">ForeCasts</h1>
+        </div>
+    </div>
+    <div id="screen2" class="screen screen2">
+      <div class="container">
+        <input id="cityInput" type="text" placeholder="Search City">
+        <img id="icon" src="./Weather _))10 18.png" alt="0">
+        <h1 id="gradus">None°</h1>
+        <h2 id="city">City: None</h2>
+        <div class="gradus">
+            <h2 id="max-gradus">Max: none</h2>
+            <h2 id="min-gradus">Min: none</h2>
+        </div>
+        <div class="data">
+            <h2>Today</h2>
+            <h2 id="data"></h2>
+        </div>
+        <div class="button">
+            <button id="search" onclick="getWeather(), clearInput()">Search</button>
+        </div>
+    </div>
+    </div>
+  </div>
+    <script src="script.js"></script>
+</body>
+</html>
